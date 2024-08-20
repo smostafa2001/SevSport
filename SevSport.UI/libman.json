@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+    "libraries": [
+        {
+            "library": "font-awesome@6.6.0",
+            "destination": "wwwroot/lib/font-awesome/"
+        },
+        {
+            "library": "Chart.js@2.9.4",
+            "destination": "wwwroot/lib/Chart.js/"
+        },
+        {
+            "library": "ionicons@7.4.0",
+            "destination": "wwwroot/lib/ionicons/"
+        },
+        {
+            "library": "material-design-iconic-font@2.2.0",
+            "destination": "wwwroot/lib/material-design-iconic-font/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "datatables@1.10.21",
+            "destination": "wwwroot/lib/datatables/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "sweetalert@2.1.2",
+            "destination": "wwwroot/lib/sweetalert/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "modernizr@2.8.3",
+            "destination": "wwwroot/lib/modernizr/"
+        },
+        {
+            "provider": "cdnjs",
+            "library": "animate.css@4.1.1",
+            "destination": "wwwroot/lib/animate.css/"
+        },
+        {
+            "provider": "jsdelivr",
+            "library": "persian-datepicker@1.2.0",
+            "destination": "wwwroot/lib/persian-datepicker/",
+            "files": [
+                "dist/js/persian-datepicker.js",
+                "dist/js/persian-datepicker.min.js",
+                "dist/css/persian-datepicker.min.css",
+                "dist/css/persian-datepicker.css"
+            ]
+        },
+        {
+            "provider": "jsdelivr",
+            "library": "waves@0.1.1",
+            "destination": "wwwroot/lib/waves/"
+        }
+    ]
+}
